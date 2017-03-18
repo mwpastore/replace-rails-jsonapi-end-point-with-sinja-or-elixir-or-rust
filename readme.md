@@ -12,9 +12,6 @@
     * elixir + plug
     * rust + nickel
 
-# Lightning talk from WrocLoveRb
+# Slides from Lightning talk from WrocLoveRb
 
-<iframe src="//slides.com/michalczyz/ruby-is-fast-enought-serving-jsonapi-at-speed/embed" 
-        width="576" height="420" scrolling="no" frameborder="0" 
-        webkitallowfullscreen mozallowfullscreen allowfullscreen>
-</iframe>
+http://slides.com/michalczyz/ruby-is-fast-enought-serving-jsonapi-at-speed#/
