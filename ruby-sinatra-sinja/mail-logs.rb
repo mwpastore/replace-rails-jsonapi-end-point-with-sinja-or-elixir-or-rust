@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 require 'logger'
-require 'sinatra'
+require 'sinatra/base'
 require 'sequel'
 require 'sinatra/jsonapi'
 
@@ -56,14 +56,12 @@ class CompanySerializer < BaseSerializer
 end
 
 class MailLogs < Sinatra::Application
-  register Sinatra::JSONAPI
-
   resource 'mail-logs' do
     index do
       MailLog.dataset
     end
 
   end
-end
 
-freeze_jsonapi
+  freeze_jsonapi
+end
